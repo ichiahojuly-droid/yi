@@ -1,0 +1,49 @@
+{
+  "records": 8425,
+  "wind_records": 8424,
+  "solar_records": 8424,
+  "wind_model": {
+    "coefficients": {
+      "intercept": 786.8141688585513,
+      "wind_speed": 1767.7108010157706,
+      "radiation": -6.540272524454499
+    },
+    "r_squared": 0.6447123076480072
+  },
+  "solar_model": {
+    "coefficients": {
+      "intercept": 1292.1237058958636,
+      "wind_speed": -281.8009090682223,
+      "radiation": 17.24006347435926
+    },
+    "r_squared": 0.89390286355876
+  },
+  "feature_stats": {
+    "wind_speed": {
+      "mean": 3.9083281673173538,
+      "std": 1.95618338643172
+    },
+    "radiation": {
+      "mean": 184.21857248689835,
+      "std": 255.77787529944032
+    },
+    "wind_power": {
+      "mean": 6490.76841600932,
+      "std": 4526.6943920386375
+    },
+    "solar_power": {
+      "mean": 3366.693158238876,
+      "std": 4622.365865662999
+    }
+  },
+  "feature_correlations": {
+    "wind_speed__wind_power": 0.7145477556853133,
+    "radiation__wind_power": -0.26752638288022,
+    "radiation__solar_power": 0.938048021539576,
+    "wind_speed__solar_power": 0.008155251120618255
+  },
+  "load_correlations": {
+    "humidity_load": 0.44155428402728736,
+    "temperature_load": 0.010312314554691844
+  }
+}
